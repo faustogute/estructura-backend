@@ -4,8 +4,9 @@
   "description": "proyecto prueba para backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/faustogute/estructura-backend.git"
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/faustogute/estructura-backend/issues"
   },
-  "homepage": "https://github.com/faustogute/estructura-backend#readme"
+  "homepage": "https://github.com/faustogute/estructura-backend#readme",
+  "dependencies": {
+    "mongoose": "^6.6.5"
+  }
 }
